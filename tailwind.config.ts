@@ -52,10 +52,10 @@ const config: Config = {
           "sans-serif",
         ],
       },
-      backgroundImage: {
-        "hero-gradient":
-          "radial-gradient(circle at 20% 20%, rgba(41,74,148,0.15), transparent 40%), radial-gradient(circle at 80% 0%, rgba(211,163,52,0.12), transparent 45%), linear-gradient(180deg, #05070f 0%, #0b1c47 55%, #071433 100%)",
-      },
+      // NOTE: the hero background is defined as a single merged rule in
+      // globals.css (`.hero-bg`) rather than here, specifically to avoid
+      // two different `background-image` utilities competing on the same
+      // element. See the comment above `.hero-bg` in globals.css.
       boxShadow: {
         card: "0 20px 60px -15px rgba(7, 20, 51, 0.45)",
         gold: "0 0 0 1px rgba(211,163,52,0.35), 0 8px 24px -8px rgba(211,163,52,0.35)",
