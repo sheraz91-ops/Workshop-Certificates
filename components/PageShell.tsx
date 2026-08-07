@@ -32,7 +32,7 @@ export default function PageShell({ children }: { children: ReactNode }) {
               <img
                 src={ASSET_PATHS.logo}
                 alt={`${EVENT_CONFIG.organizationAbbreviation} logo`}
-                className="h-full w-full object-cover object-center scale-[1.35]"
+                className="h-full w-full object-cover object-center"
               />
             </div>
           </div>
