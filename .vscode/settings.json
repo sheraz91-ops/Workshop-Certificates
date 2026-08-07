@@ -1,0 +1,12 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+  "tailwindCSS.includeLanguages": {
+    "typescript": "html",
+    "typescriptreact": "html",
+    "javascript": "html",
+    "javascriptreact": "html"
+  },
+  "tailwindCSS.experimental.configFile": "tailwind.config.ts"
+}
