@@ -2,7 +2,7 @@
   "name": "cbs-certificate-portal",
   "version": "1.0.0",
   "private": true,
-  "description": "Character Building Society (MNSUAM) - Certificate Download Portal",
+  "description": "Character Building Society - Certificate Download Portal",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
